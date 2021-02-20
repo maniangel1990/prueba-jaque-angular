@@ -1,0 +1,43 @@
+$whiteColor: white;
+$d55Color: #b4b2ca;
+
+.containerside{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  .sidenav{
+    background-color: $d55Color;
+
+    .toolbar{
+      color: $d55Color;
+      background-color: $whiteColor;
+      display: bloc;
+      justify-content: center;
+    }
+
+    /*
+    * Navegacion
+    */
+    .mat-list-item a{
+      color: $whiteColor;
+      text-decoration: none;
+    }
+  }
+
+  .mat-sidenav-content{
+    .toolbar{
+      color: $whiteColor;
+      background-color: $d55Color;
+    }
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-icon-button{
+    margin-right: 10px;
+  }
+}
